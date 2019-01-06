@@ -1,19 +1,30 @@
 {
   "name": "restful-blog-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "CRUD Blog api with create,update,delete comments ",
   "main": "server.js",
   "dependencies": {
     "body-parser": "^1.18.3",
     "errorhandler": "^1.5.0",
     "express": "^4.16.4",
-    "morgan": "^1.9.1"
+    "morgan": "^1.9.1",
+    "mongodb": "^3.1.10",
+    "mongoose": "^5.4.2"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": ["Blog API","Comment API"],
+  "author": "Upendra",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/upendra2065/RESTful-Blog-API.git"
+  },
+  "bugs": {
+    "url": "https://github.com/upendra2065/RESTful-Blog-API/issues"
+  },
+  "homepage": "https://github.com/upendra2065/RESTful-Blog-API#readme"
 }
