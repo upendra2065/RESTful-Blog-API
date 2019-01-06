@@ -1,1 +1,2 @@
-This is ### REST Blog API 
+## REST Blog API 
+This is a **Blog API**
